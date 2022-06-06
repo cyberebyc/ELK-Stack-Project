@@ -2,7 +2,7 @@
 
 The files in this repository were used to configure the network depicted below.
 
-[Network Diagram/Project 1 Diagram.png](https://github.com/cyberebyc/ELK-Stack-Project/blob/main/Network Diagram/Project 1 Diagram.png)
+Network Diagram (https://github.com/cyberebyc/ELK-Stack-Project/blob/26c4ec15db971769c04e484883ae86d965137dc0/Network%20Diagram/Project%201%20Diagram.png)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
 
