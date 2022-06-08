@@ -6,7 +6,7 @@ Network Diagram (https://github.com/cyberebyc/ELK-Stack-Project/blob/26c4ec15db9
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the ansible file may be used to install only certain pieces of it, such as Filebeat.
 
-Ansible.yml (https://github.com/cyberebyc/ELK-Stack-Project/blob/main/Ansible%20YAML/Ansible.yml)
+![Ansible.yml] (https://github.com/cyberebyc/ELK-Stack-Project/blob/main/Ansible%20YAML/Ansible.yml)
 Filebeat-config.yml (https://github.com/cyberebyc/ELK-Stack-Project/blob/main/Ansible%20YAML/filebeat-config.yml)
 
 This document contains the following details:
