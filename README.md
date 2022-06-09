@@ -14,7 +14,7 @@ List of Playbook File
 1. [Ansible.yml](https://github.com/cyberebyc/ELK-Stack-Project/blob/main/Ansible%20YAML/Ansible.yml)
 2. [install-elk.yml](https://github.com/cyberebyc/ELK-Stack-Project/blob/main/Ansible%20YAML/install-elk.yml)
 3. [filebeat-config.yml](https://github.com/cyberebyc/ELK-Stack-Project/blob/main/Ansible%20YAML/filebeat-config.yml)
-4. [filebeat-playbook.yml] (https://github.com/cyberebyc/ELK-Stack-Project/blob/main/Ansible%20YAML/filebeat-playbook.yml)
+4. [filebeat-playbook.yml](https://github.com/cyberebyc/ELK-Stack-Project/blob/main/Ansible%20YAML/filebeat-playbook.yml)
 5. [metricbeat-config.yml](https://github.com/cyberebyc/ELK-Stack-Project/blob/main/Ansible%20YAML/metricbeat-config.yml)
 6. [metricbeat-playbook.yml](https://github.com/cyberebyc/ELK-Stack-Project/blob/main/Ansible%20YAML/metricbeat-playbook.yml)
 
@@ -117,9 +117,9 @@ The following screenshot displays the result of running `docker ps` after succes
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
  ##List the IP addresses of the machines you are monitoring
-	1. 10.1.0.5
-	2. 10.1.0.7
-	3. 10.2.0.4
+	-1. 10.1.0.5
+	-2. 10.1.0.7
+	-3. 10.2.0.4
 
 We have installed the following Beats on these machines:
 - Filebeat
@@ -133,11 +133,11 @@ These Beats allow us to collect the following information from each machine:
 
 - Filebeat collect system log, audit logs server logs from the server.
 
-	-[Exmaple of Filebeat data through Kabana](https://github.com/cyberebyc/ELK-Stack-Project/blob/main/Network%20Diagram/Dashboard-Filebeat.png)
+	![Exmaple of Filebeat data through Kabana](https://github.com/cyberebyc/ELK-Stack-Project/blob/main/Network%20Diagram/Dashboard-Filebeat.png)
 
 - Metricbeat-collect metrics and statistics of server.
 	
-	-[Exmaple of Metricbeat data through Kabana](https://github.com/cyberebyc/ELK-Stack-Project/blob/main/Network%20Diagram/Metric-dashboard.png)
+	![Exmaple of Metricbeat data through Kabana](https://github.com/cyberebyc/ELK-Stack-Project/blob/main/Network%20Diagram/Metric-dashboard.png)
 
 
 ### Using the Playbook
@@ -149,7 +149,7 @@ SSH into the control node and follow the steps below:
 - Update the hosts file to include web server and elk server
 - Run the playbook, and navigate to Kabana to check that the installation worked as expected.
 
-    -[Kabana Screem](https://github.com/cyberebyc/ELK-Stack-Project/blob/main/Network%20Diagram/Kibana%20Homepage.png)
+    ![Kabana Screen](https://github.com/cyberebyc/ELK-Stack-Project/blob/main/Network%20Diagram/Kibana%20Homepage.png)
 
 - Which file is the playbook? Where do you copy it?
 	1. Copy ansible.yml and install-elk.yml playbook files into Jump-Box-Provisioner (VM) on /etc/ansible directory
@@ -190,7 +190,7 @@ SSH into the control node and follow the steps below:
 
 	
 	
-_As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
+As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc.
 
 
 	-Downlad playbook through Curl command
