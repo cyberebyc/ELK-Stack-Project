@@ -212,7 +212,7 @@ SSH into the control node and follow the steps below:
 	![Docker ps command](https://github.com/cyberebyc/ELK-Stack-Project/blob/main/Network%20Diagram/docker_ps_output.png)
 
 	-Git bash Command 
-		-git clone https://github.com/cyberecy/ELK-Stack-Project.git
+		-git clone https://github.com/
 
 		-cd OneDrive/Documents/GitHub/ELK-Stack-Project/
 
