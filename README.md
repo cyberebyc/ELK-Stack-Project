@@ -196,8 +196,6 @@ SSH into the control node and follow the steps below:
 	
 	![Metricbeat Dashboard Screen-Kibana](https://github.com/cyberebyc/ELK-Stack-Project/blob/main/Images/Kibana%20Images/Metricbeat-dashboard%20result.png)
 	
-## Bonus Commands ( Download playbook,update the files etc.) 	
-
 	-Downlad playbook through Curl command
 	![Curl-Command](https://github.com/cyberebyc/ELK-Stack-Project/blob/main/Network%20Diagram/Curl%20for%20download%20file.png)
 	
