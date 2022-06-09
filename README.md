@@ -194,7 +194,7 @@ As a **Bonus**, provide the specific commands the user will need to run to downl
 
 
 	-Downlad playbook through Curl command
-	![Curl Command](https://github.com/cyberebyc/ELK-Stack-Project/blob/main/Network%20Diagram/Curl%20for%20download%20file.png)
+	![Metricbeat Dashboard Screen-Kibana](https://github.com/cyberebyc/ELK-Stack-Project/blob/main/Images/Kibana%20Images/Metricbeat-dashboard%20result.png)
 	
 	-Update file through Nano Command
 	![Nano Command](https://github.com/cyberebyc/ELK-Stack-Project/blob/main/Network%20Diagram/nano%20for%20playbook%20update%20or%20editing.png)
